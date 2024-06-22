@@ -1,0 +1,241 @@
+body{
+    background-color: #1e202b;
+}
+nav{
+    background-color: #1e202b !important;
+    .active{
+        border: 1px solid #009ad8;
+        color: #009ad8 !important;
+        border-radius: 30px;
+    }
+    a:hover{
+        border: 1px solid #009ad8;
+        color: #009ad8 !important;
+        border-radius: 30px;
+
+    }
+    .uder_header{
+        left: 14%;
+        top: 58%;
+        font-size: 12px;
+        color: #bfc1c8;
+    }
+}
+#home{
+    
+    background-size: cover;
+  
+    .parent{
+        background-image: url(../banner.png);
+        /* margin-bottom: 100% !important;  */
+        /* height: 100% !important; */
+    }
+    
+    .col-md-4 div, h5{
+        color: #bfc1c8 !important;
+    }
+    /* h5{
+        color: #bfc1c8 !important;
+    } */
+    .toop{
+       background-color:hsl(230, 17%, 27%);
+    }
+    .down{
+        background-color: hsl(231, 18%, 21%);
+        height: 350px;
+    }
+    h2{
+        color: #fff;
+    }
+    p{
+        color: #009ad8;
+    }
+    .fs-1{
+        font-size: 60px !important;
+    }
+    input{
+        outline: none;
+    border: none;
+        padding: 20px 50px 20px 20px !important;
+    background: #1e202b;
+    color: white !important;
+    }
+    ::placeholder {
+        color: gray;
+    }
+    .serch_btn{
+        right:8%;
+       
+        border: none;
+        background: #009ad8;
+        padding: 10px 20px;
+        margin-top: 10px !important;
+        border-radius: 30px;
+        color: white;
+    }
+    .high{
+        height: 100px;
+    }
+    .up{
+        margin-top: -10% !important;
+    }
+    
+}
+.dark{
+    background-color: #2c3244 !important;
+}
+.moredark{
+    background-color: #1c2030 !important;
+}
+
+#footer{
+   
+    background-color: #292936;
+    input{
+        outline: none;
+    border: none;
+        padding: 20px 50px 20px 20px !important;
+    background: #1e202b;
+    color: white !important;
+    }
+    ::placeholder {
+        color: gray;
+    }
+    .serchBtn{
+        right:38%;
+       
+        border: none;
+        background: #009ad8;
+        padding: 10px 20px;
+        margin-top: 10px !important;
+        border-radius: 30px;
+        color: white;
+    }
+   
+    
+    .bg-i-color{
+        background: #1e202b;
+    color: #009ad8 !important;
+        font-size: 14px;
+    width: 40px;
+    height: 40px;
+    line-height: 35px;
+    }
+    .icon:hover {
+        
+        /* transition: 1s all !important; */
+        /* border-color:#cde1f8 !important ; */
+        background-color: #009ad8 !important;
+        border: 1px solid #000 !important;
+        &.icon i{
+            color: #fff !important;
+        }
+    }
+
+
+}
+#content{
+    .col-md-12{
+        background-color: #262936;
+        a{
+            color: #bfc1c8;
+            text-decoration: none;
+
+        }
+        a:hover{
+            text-decoration:underline;
+            font-size:13px ;
+
+        }
+        .arrow{
+            color: #bfc1c8;
+            font-size:13px ;
+        }
+        .contact_span{
+            color: #fff;
+            font-size:13px ;
+        }
+    }
+    .demo{
+        background-color: #262936;
+        width: 40%;
+        margin-right: 10%;
+        .col-md-12{
+            color: #bfc1c8;
+        }
+    }
+    .high{
+        height: 300px;
+    }
+    .color{
+        
+        color: #bfc1c8;
+        .col-md-6 input,.row textarea{
+            color: white;
+            border: 2px solid #393c48;
+            background: transparent;
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        textarea{
+            resize: both;
+            overflow: auto;
+    
+        }
+         input:focus, textarea:focus,input:hover,textarea:hover {
+            outline: none;
+            border: 2px solid #009ad8;
+            padding: 10px;
+            border-radius: 30px;
+        }
+    }
+    .submitBtn{
+        
+           
+        border: none;
+        background: #009ad8 !important;
+        padding: 10px 20px;
+        margin-top: 10px !important;
+        border-radius: 30px;
+        color: white;
+    
+}
+    
+}
+@media (max-width:992px){
+    #home{
+        .col-md-4{
+            width: 100% !important;
+        }
+    }
+    #footer{
+        margin-top: 3050px;
+        .col-md-8{
+            width: 100%;
+        }
+        .col-md-4{
+            width: 100%;
+        }
+        .serchBtn{
+            right: 13% !important;
+        }
+        
+    }
+    #content{
+        .demo{
+            width: 100%;
+        }
+        .color{
+            width: 100%;
+        }
+    }
+}
+#notFound{
+   
+    .center{
+        width: 50%;
+        margin: 100px auto;
+        background-color: #fff;
+    }
+}
