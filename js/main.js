@@ -51,7 +51,7 @@ searchBTN.addEventListener("click",async function(e){
     console.log("no")
     display(yourLocation)
   }else{
-    let data=await fetch(`http://api.weatherapi.com/v1/search.json?key=6cb791adca5d402190e02435242006&q=${searchInput.value}`)
+    let data=await fetch(`https://api.weatherapi.com/v1/search.json?key=6cb791adca5d402190e02435242006&q=${searchInput.value}`)
     let result=await data.json()
     display(result[0].name)
   }
@@ -65,7 +65,7 @@ searchBTN.addEventListener("click",async function(e){
 async function display(data){
   let carton=``
   // https://api.weatherapi.com/v1/forecast.json?key=6cb791adca5d402190e02435242006&q=${data}&days=3
-  let dataa=await fetch(`http://api.weatherapi.com/v1/forecast.json?key=6cb791adca5d402190e02435242006&q=${data}&days=7`)
+  let dataa=await fetch(`https://api.weatherapi.com/v1/forecast.json?key=6cb791adca5d402190e02435242006&q=${data}&days=7`)
   let result=await dataa.json()
   console.log(result)
 carton +=`<div class="col-md-4 p-0">
